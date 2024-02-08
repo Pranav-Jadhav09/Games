@@ -6,8 +6,8 @@
 
 ## Games
 
-| Project     | Live Preview                             |
-| ----------- | ---------------------------------------- |
-| Tic Tac Toe | <a href="" target="_blank">Play Now!</a> |
+| Project            | Live Preview                             |
+| ------------------ | ---------------------------------------- |
+| Rock Paper Scissor | <a href="" target="_blank">Play Now!</a> |
 
 </div>
