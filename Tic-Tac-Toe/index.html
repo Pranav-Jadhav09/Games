@@ -5,6 +5,20 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Enjoy the classic game of Tic Tac Toe with our interactive web version! Play against a friend in this two-player game crafted using HTML, CSS, and JavaScript. Experience the thrill of competition as X's and O's battle it out on the grid. Be prepared for exhilarating wins and intense draws, with popup notifications highlighting victories and ties. Play now and relive the timeless excitement of Tic Tac Toe in a digital twist."
+    />
+    <meta
+      name="keywords"
+      content="tic tac toe, game, two-player, multiplayer, HTML, CSS, JavaScript, X, O, win, draw, interactive, web game, classic, strategy, board game"
+    />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- Favicon -->
     <link rel="icon" href="./favicon.png" />
@@ -16,5 +30,26 @@
     <!-- Script -->
     <script defer src="./script.js"></script>
   </head>
-  <body></body>
+  <body>
+    <div class="wrapper">
+      <div class="container">
+        <button class="button-option"></button>
+        <button class="button-option"></button>
+        <button class="button-option"></button>
+        <button class="button-option"></button>
+        <button class="button-option"></button>
+        <button class="button-option"></button>
+        <button class="button-option"></button>
+        <button class="button-option"></button>
+        <button class="button-option"></button>
+      </div>
+
+      <div id="restart">Restart</div>
+    </div>
+
+    <div class="popup hide">
+      <p id="message">Sample Message</p>
+      <button id="new-game">New Game</button>
+    </div>
+  </body>
 </html>
