@@ -13,10 +13,10 @@ Here, you'll find a collection of games I've created with love and passion. From
 
 What You'll Find:
 
-- Diverse Range of Games: Explore a variety of games, each with its unique gameplay mechanics and challenges.
-- Open Source: Dive into the source code of each game to learn how they were built. Feel free to fork, modify, and contribute!
-- Interactive Experience: Have fun playing these games directly in your browser or download them to enjoy offline.
-- Continuous Updates: Stay tuned for regular updates as I continue to develop new games and enhance existing ones.
+- `Diverse Range of Games`: Explore a variety of games, each with its unique gameplay mechanics and challenges.
+- `Open Source`: Dive into the source code of each game to learn how they were built. Feel free to fork, modify, and contribute!
+- `Interactive Experience`: Have fun playing these games directly in your browser or download them to enjoy offline.
+- `Continuous Updates`: Stay tuned for regular updates as I continue to develop new games and enhance existing ones.
 
 <br />
 
