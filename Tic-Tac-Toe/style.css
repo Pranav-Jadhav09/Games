@@ -1,13 +1,21 @@
-/* --- Reset --- */
+.container,
+.popup,
+.wrapper,
+body {
+  display: flex;
+}
+#new-game,
+#restart {
+  background-color: #0a0027;
+  color: #fff;
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Raleway", sans-serif;
+  font-family: Raleway, sans-serif;
 }
-
 body {
-  display: flex;
   align-items: center;
   justify-content: center;
   height: 100vh;
@@ -16,25 +24,17 @@ body {
 html {
   font-size: 16px;
 }
-
-/* --- Parent Div --- */
 .wrapper {
-  display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
 }
-
-/* --- Container --- */
 .container {
   width: 70vmin;
   height: 70vmin;
-  display: flex;
   flex-wrap: wrap;
   gap: 2vmin;
 }
-
-/* --- All cells --- */
 .button-option {
   background: #fff;
   height: 22vmin;
@@ -50,19 +50,14 @@ html {
   font-size: 1.3em;
   padding: 1em 2em;
   border-radius: 8px;
-  background-color: #0a0027;
-  color: #fff;
   border: none;
   display: block;
 }
-
-/* --- Popup & Hide --- */
 .popup {
   background: linear-gradient(135deg, #8052ec, #d161ff);
   height: 100%;
   width: 100%;
   position: absolute;
-  display: flex;
   align-items: center;
   justify-content: center;
   z-index: 2;
@@ -73,8 +68,6 @@ html {
 #new-game {
   font-size: 0.6em;
   padding: 0.5em 1em;
-  background-color: #0a0027;
-  color: #fff;
   border-radius: 0.2em;
   border: none;
 }
@@ -86,23 +79,19 @@ html {
 .popup.hide {
   display: none;
 }
-
-/* --- Media Queries --- */
 @media screen and (max-width: 430px) {
   #restart {
-    padding: 1em 1em;
+    padding: 1em;
   }
 }
-
 @media screen and (max-width: 380px) {
   #restart {
-    padding: 0.9em 0.9em;
+    padding: 0.9em;
   }
   #new-game {
     font-size: 0.5em;
   }
 }
-
 @media screen and (max-width: 325px) {
   #restart {
     padding: 0.7em;
