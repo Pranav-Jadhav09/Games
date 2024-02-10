@@ -30,22 +30,28 @@
     />
     <link rel="manifest" href="./assets/favicon_io/site.webmanifest" />
 
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
     <!-- Style -->
     <link rel="stylesheet" href="./style.css" />
-
-    <!-- Script -->
-    <script defer src="./script.js"></script>
   </head>
   <body>
     <header>
       <h1>Guess My Number!</h1>
       <p class="between">(Between 1 and 20)</p>
-      <button class="number">?</button>
+      <button class="btn again">Again!</button>
+      <div class="number">?</div>
     </header>
 
     <main>
       <section class="left">
-        <input type="number" name="input-box" id="input-box" class="guess" />
+        <input type="number" class="guess" id="guess" name="guess" />
         <button class="btn check">Check!</button>
       </section>
       <section class="right">
@@ -60,5 +66,8 @@
         </p>
       </section>
     </main>
+
+    <!-- Script -->
+    <script src="./script.js"></script>
   </body>
 </html>
