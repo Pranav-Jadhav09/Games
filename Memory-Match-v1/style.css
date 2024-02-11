@@ -1,15 +1,12 @@
-/* Variable CSS */
 :root {
   --bgColor: #6563ff;
   --bgWrapper: #f8f8f8;
 }
-
-/* Reset */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: Poppins, sans-serif;
 }
 body {
   display: flex;
@@ -24,9 +21,8 @@ body {
   padding: 25px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
-
-.cards,
 .card,
+.cards,
 .view {
   display: flex;
   align-items: center;
@@ -49,7 +45,6 @@ body {
   transform-style: preserve-3d;
   width: calc(100% / 4 - 10px);
 }
-
 .card .view {
   width: 100%;
   height: 100%;
@@ -61,7 +56,6 @@ body {
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.102);
   transition: transform 0.25s linear;
 }
-
 .card .front-view img {
   width: 19px;
 }
@@ -71,18 +65,14 @@ body {
 .card .back-view {
   transform: rotateY(-180deg);
 }
-
-/* Used in Logic */
 .card.flip .back-view {
   transform: rotateY(0);
 }
 .card.flip .front-view {
   transform: rotateY(180deg);
 }
-
-/* Animation */
 .card.shake {
-  animation: shake 0.35s ease-in-out;
+  animation: 0.35s ease-in-out shake;
 }
 @keyframes shake {
   0%,
@@ -102,8 +92,6 @@ body {
     transform: translateX(8px);
   }
 }
-
-/* Media Queries */
 @media screen and (max-width: 700px) {
   .cards {
     height: 350px;
@@ -116,7 +104,6 @@ body {
     max-width: 35px;
   }
 }
-
 @media screen and (max-width: 430px) {
   .cards {
     height: 300px;
@@ -129,7 +116,6 @@ body {
     max-width: 35px;
   }
 }
-
 @media screen and (max-width: 350px) {
   .cards {
     height: 250px;
