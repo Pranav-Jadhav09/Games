@@ -102,3 +102,37 @@ body {
     transform: translateX(8px);
   }
 }
+
+/* Media Queries */
+@media screen and (max-width: 700px) {
+  .cards {
+    height: 350px;
+    width: 350px;
+  }
+  .card .front-view img {
+    width: 15px;
+  }
+  .card .back-view img {
+    max-width: 35px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .cards {
+    height: 300px;
+    width: 300px;
+  }
+  .card .front-view img {
+    width: 15px;
+  }
+  .card .back-view img {
+    max-width: 35px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .cards {
+    height: 250px;
+    width: 250px;
+  }
+}
