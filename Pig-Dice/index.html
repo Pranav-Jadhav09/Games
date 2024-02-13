@@ -1,10 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <title>Pig Dice</title>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta
+      name="description"
+      content="Play the classic Pig Dice Game online! Roll the dice, accumulate points, and avoid the Pig Out. Challenge friends or the computer in this addictive web game built with HTML, CSS, and JavaScript. Enjoy smooth animations, strategic gameplay, and aim for the highest score. Experience the excitement now!"
+    />
+
+    <!-- favicon -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./assets/favicon_io/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon_io/android-chrome-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/favicon_io/android-chrome-512x512.png"
+    />
+    <link rel="manifest" href="./assets/favicon_io/site.webmanifest" />
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="./style.css" />
   </head>
-  <body></body>
+  <body>
+    <main>
+      <!-- first player -->
+      <section class="player player-0 player-active">
+        <h2 class="name" id="name-0">Player 1</h2>
+        <p class="score" id="score-0">95</p>
+
+        <div class="current">
+          <p class="current-label">Current</p>
+          <p class="current-score" id="current-0">0</p>
+        </div>
+      </section>
+
+      <!-- second player -->
+      <section class="player player-1">
+        <h2 class="name" id="name-1">Player 2</h2>
+        <p class="score" id="score-1">95</p>
+
+        <div class="current">
+          <p class="current-label">Current</p>
+          <p class="current-score" id="current-1">0</p>
+        </div>
+      </section>
+
+      <!-- buttons & image -->
+      <img src="./assets/dice-1.png" alt="dice-image" class="dice" />
+      <button class="btn btn-new">🔄 New Game</button>
+      <button class="btn btn-roll">🎲 Roll Dice</button>
+      <button class="btn btn-hold">📥 Hold</button>
+    </main>
+
+    <!-- Script -->
+    <script src="./script.js"></script>
+  </body>
 </html>
