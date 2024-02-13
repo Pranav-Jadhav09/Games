@@ -44,10 +44,11 @@ p {
 }
 
 .cards {
-  width: 350px;
-  height: 350px;
+  width: 330px;
+  height: 330px;
   flex-wrap: wrap;
   justify-content: space-between;
+  align-items: center;
 }
 .cards .card {
   cursor: pointer;
@@ -55,7 +56,7 @@ p {
   perspective: 1000px;
   transform-style: preserve-3d;
   width: calc(100% / 4 - 10px);
-  height: calc(100% / 4 - 10px);
+  height: calc(100% / 4 + 10px);
 }
 .cards .card .view {
   width: 100%;
@@ -114,11 +115,11 @@ p {
 /* Details Box */
 .details {
   width: 100%;
-  margin-top: 15px;
-  padding: 0 20px;
+  margin-top: 5px;
+  padding: 20px;
   border-radius: 7px;
   background: #fff;
-  height: calc(100% / 4 - 10px);
+  height: calc(100% / 4 + 10px);
   justify-content: space-between;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
 }
@@ -129,7 +130,7 @@ p {
   border-right: 1px solid #ccc;
 }
 .details p span {
-  margin-left: 8px;
+  margin-left: 4px;
 }
 .details p b {
   font-weight: 500;
@@ -173,7 +174,7 @@ p {
   }
   .details {
     margin-top: 10px;
-    padding: 0 15px;
+    padding: 12px;
     height: calc(100% / 4 - 20px);
   }
   .details p {
@@ -200,7 +201,7 @@ p {
   }
   .details {
     margin-top: 10px;
-    padding: 0 15px;
+    padding: 12px;
     height: calc(100% / 4 - 20px);
   }
   .details p {

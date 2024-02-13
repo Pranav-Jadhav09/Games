@@ -1,7 +1,10 @@
 "use strict";
 
+// Define base URL for images
+const baseURL = `./assets/`;
+
 // Selecting Elements
-const cards = document.querySelectorAll(".card");
+const cardContainer = document.querySelector(".cards");
 const timeTag = document.querySelector(".time b");
 const flipsTag = document.querySelector(".flips b");
 const restartBtn = document.querySelector(".details button");
@@ -72,8 +75,43 @@ function matchCard(img1, img2) {
   }, 1200);
 }
 
-// Function ShuffleCard
-function shuffleCard() {
+// Function to create a card element
+function createCard(imgSrc) {
+  const card = document.createElement("li");
+  card.classList.add("card");
+
+  const frontView = document.createElement("div");
+  frontView.classList.add("view", "front-view");
+  const questionIcon = document.createElement("img");
+  questionIcon.src = "./assets/que_icon.svg";
+  questionIcon.alt = "question-icon";
+  frontView.appendChild(questionIcon);
+
+  const backView = document.createElement("div");
+  backView.classList.add("view", "back-view");
+  const cardImage = document.createElement("img");
+  cardImage.src = imgSrc;
+  cardImage.alt = "card-image";
+  backView.appendChild(cardImage);
+
+  card.appendChild(frontView);
+  card.appendChild(backView);
+
+  card.addEventListener("click", flipCard);
+
+  return card;
+}
+
+// Function to shuffle an array
+function shuffleArray(array) {
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]];
+  }
+}
+
+// Function to initialize the game
+function initializeGame() {
   timeLeft = maxTime;
   flips = matchedCard = 0;
   card1 = card1 = "";
@@ -82,24 +120,21 @@ function shuffleCard() {
   flipsTag.innerText = flips;
   disableDeck = isPlaying = false;
 
-  let arr = [1, 2, 3, 4, 5, 6, 1, 2, 3, 4, 5, 6];
-  arr.sort(() => (Math.random() > 0.5 ? 1 : -1));
+  // Generate and append new cards
+  let imgIndexes = Array.from({ length: 6 }, (_, i) => i + 1);
+  imgIndexes = imgIndexes.concat(imgIndexes); // Duplicate each index to have pairs
+  shuffleArray(imgIndexes);
 
-  cards.forEach((card, i) => {
-    card.classList.remove("flip");
-    let imgTag = card.querySelector(".back-view img");
+  cardContainer.innerHTML = ""; // Clear existing cards
 
-    setTimeout(() => {
-      imgTag.src = `./assets/img-${arr[i]}.png`;
-    }, 500);
-    card.addEventListener("click", flipCard);
+  imgIndexes.forEach((index) => {
+    const card = createCard(`${baseURL}img-${index}.png`);
+    cardContainer.appendChild(card);
   });
 }
-shuffleCard();
 
-// Add events
-restartBtn.addEventListener("click", shuffleCard);
+// Initialize the game
+initializeGame();
 
-cards.forEach((card) => {
-  card.addEventListener("click", flipCard);
-});
+// Add event listener for restart button
+restartBtn.addEventListener("click", initializeGame);
