@@ -1,9 +1,13 @@
-/* Reset */
+.container h2,
+.content .word,
+.details p b {
+  font-weight: 500;
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: Poppins, sans-serif;
 }
 body {
   padding: 0 10px;
@@ -20,18 +24,15 @@ body {
 }
 .container h2 {
   font-size: 25px;
-  font-weight: 500;
   padding: 16px 25px;
   border-bottom: 1px solid #ccc;
 }
 .container .content {
   margin: 25px 20px 35px;
 }
-
 .content .word {
   user-select: none;
   font-size: 33px;
-  font-weight: 500;
   text-align: center;
   letter-spacing: 24px;
   margin-right: -24px;
@@ -45,21 +46,17 @@ body {
   font-size: 18px;
   margin-bottom: 10px;
 }
-.details p b {
-  font-weight: 500;
-}
-
 .content input {
   width: 100%;
   height: 60px;
-  outline: none;
+  outline: 0;
   padding: 0 16px;
   font-size: 18px;
   border-radius: 5px;
   border: 1px solid #bfbfbf;
 }
 .content input:focus {
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
 }
 .content input::placeholder {
   color: #aaa;
@@ -72,17 +69,16 @@ body {
   margin-top: 20px;
   justify-content: space-between;
 }
-
 .buttons button {
   border: none;
-  outline: none;
+  outline: 0;
   color: #fff;
   cursor: pointer;
   padding: 15px 0;
   font-size: 17px;
   border-radius: 5px;
   width: calc(100% / 2 - 8px);
-  transition: all 0.3s ease;
+  transition: 0.3s;
 }
 .buttons button:active {
   transform: scale(0.97);
@@ -99,8 +95,6 @@ body {
 .buttons .check-word:hover {
   background: #2c52ed;
 }
-
-/* Media Queries */
 @media screen and (max-width: 470px) {
   .container h2 {
     font-size: 22px;
