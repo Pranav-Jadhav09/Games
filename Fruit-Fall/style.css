@@ -32,6 +32,7 @@ body {
   color: #fff;
   cursor: pointer;
 }
+
 .cover-screen {
   background-color: #fae6c3;
   position: absolute;
@@ -44,6 +45,7 @@ body {
   justify-content: center;
   flex-direction: column;
 }
+
 .hide {
   display: none;
 }
@@ -53,6 +55,7 @@ body {
   width: 100vw;
   overflow: hidden;
 }
+
 .fruit {
   display: block;
   position: absolute;
@@ -60,7 +63,6 @@ body {
   animation: float 6s linear infinite;
   width: 100px;
 }
-
 @keyframes float {
   0% {
     bottom: 0;
