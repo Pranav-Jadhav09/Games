@@ -61,20 +61,20 @@ function Fruit(image, x, y, width) {
   this.clicked = false;
   this.complete = false;
 
-  // Move Fruit
+  // Move fruit
   this.update = () => {
     this.y += this.speed;
-
     if (!this.complete && this.y + this.width > canvas.height) {
       this.complete = true;
     }
   };
 
-  // Draw Fruit
+  // Draw fruit
   this.draw = () => {
     ctx.drawImage(this.image, this.x, this.y, this.width, this.width);
   };
 
+  // Compare
   this.compare = (mouseX, mouseY) => {
     return (
       mouseX >= this.x &&
@@ -87,14 +87,14 @@ function Fruit(image, x, y, width) {
 
 // Create a New Fruit
 function createRandomFruit() {
-  // Set random time for next fruit
+  //set random time for next fruit
   randomCreationTime = generateRandomNumber(3, 9);
 
   if (fruits.length < fruitCount) {
     let randomFruit =
       fruitsList[generateRandomNumber(0, fruitsList.length - 1)];
 
-    const randomImage = `./assets/${randomFruit}.png`;
+    const randomImage = `${baseURL}${randomFruit}.png`;
     const randomX = generateRandomNumber(0, canvas.width - 50);
     const fruitWidth = generateRandomNumber(100, 200);
 
@@ -102,7 +102,6 @@ function createRandomFruit() {
 
     fruits.push(fruit);
   }
-
   if (fruits.length == fruitCount) {
     let checker = fruits.every((fruit) => {
       return fruit.complete == true;
@@ -123,7 +122,43 @@ function createRandomFruit() {
   }
 }
 
+function animate() {
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
+  for (const fruit of fruits) {
+    fruit.update();
+    fruit.draw();
+  }
+  requestAnimationFrame(animate);
+}
+animate();
+isTouchDevice();
+
 // EventListeners
+canvas.addEventListener(events[deviceType].down, function (e) {
+  let clickX =
+    (isTouchDevice() ? e.touches[0].pageX : e.pageX) - canvas.offsetLeft;
+
+  let clickY =
+    (isTouchDevice() ? e.touches[0].pageY : e.pageY) - canvas.offsetTop;
+
+  fruits.forEach(function (fruit) {
+    let check = fruit.compare(clickX, clickY);
+
+    if (check && !fruit.clicked) {
+      fruit.clicked = true;
+
+      points += 1;
+      scoreContainer.innerHTML = points;
+      fruit.complete = true;
+      fruit.y = canvas.height;
+    }
+  });
+});
+
+canvas.addEventListener("touchend", (e) => {
+  e.preventDefault();
+});
+
 startButton.addEventListener("click", () => {
   fruits = [];
   points = 0;
