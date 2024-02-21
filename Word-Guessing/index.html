@@ -18,6 +18,29 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
+    <div class="wrapper">
+      <h1>Guess the word</h1>
+
+      <div class="content">
+        <input
+          type="text"
+          class="typing-input"
+          maxlength="1"
+          name="typing-input"
+        />
+
+        <div class="inputs"></div>
+
+        <div class="details">
+          <p class="hint">Hint: <span></span></p>
+          <p class="guess-left">Remaining guesses: <span></span></p>
+          <p class="wrong-letter">Wrong letters: <span></span></p>
+        </div>
+
+        <button class="reset-btn">Reset Game</button>
+      </div>
+    </div>
+
     <!-- Script -->
     <script src="./js/word.js"></script>
     <script src="./js/script.js"></script>
