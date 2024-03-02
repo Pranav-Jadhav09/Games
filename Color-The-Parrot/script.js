@@ -17,7 +17,7 @@ const lowerBeakBtn = document.getElementById("lower-beak-btn");
 const clawBtn = document.getElementById("claw-btn");
 
 // Tail Wing
-const tailWingBtn = document.getElementById("tail-wing-Btn");
+const tailWingBtn = document.getElementById("tail-wing-btn");
 const headWingBtn = document.getElementById("head-wing-btn");
 
 // Eyes
@@ -118,9 +118,9 @@ clawBtn.addEventListener("click", () => {
 
 // Tail Wing
 tailWingBtn.addEventListener("click", () => {
-  document
-    .querySelectorAll(".tail-wing")
-    .forEach((item) => (item.style.backgroundColor = colors[counter7]));
+  document.querySelectorAll(".tail-wing").forEach((item) => {
+    item.style.backgroundColor = colors[counter7];
+  });
 
   // Set Counter New
   counter7 = setCounterValue(counter7);
