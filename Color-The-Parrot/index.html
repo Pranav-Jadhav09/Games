@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Color The Parrot</title>
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <!-- Wrapper -->
+      <div class="wrapper">
+        <div class="body-clr parrot">
+          <!-- Tail -->
+          <div class="tail-wing tail1"></div>
+          <div class="tail-wing tail2"></div>
+
+          <!-- Wing -->
+          <div class="body-clr wing">
+            <div class="wing-color1"></div>
+            <div class="wing-color2">
+              <div class="wing-color2-inner"></div>
+            </div>
+          </div>
+
+          <!-- Eye -->
+          <div class="eye-patch">
+            <div class="eye"></div>
+          </div>
+
+          <!-- Beak -->
+          <div class="beak-upper">
+            <div class="beak-lower"></div>
+          </div>
+
+          <!-- Others -->
+          <div class="feather"></div>
+          <div class="leg"></div>
+          <div class="branch"></div>
+        </div>
+      </div>
+
+      <!-- Controls -->
+      <div class="controls">
+        <!-- Body -->
+        <button id="body-btn">Body</button>
+
+        <!-- Wing -->
+        <button id="main-wing-btn">Wing</button>
+        <button class="sub-wing-btn">Wing Highlight</button>
+
+        <!-- Beak -->
+        <button id="upper-beak-btn">Upper Beak</button>
+        <button id="lower-beak-btn">Lower Beak</button>
+
+        <!-- Others -->
+        <button id="claw-btn">Claw</button>
+        <button id="tail-wing-btn">Tail Wing</button>
+        <button id="head-wing-btn">Head Wing</button>
+        <button id="eye-patch-btn">Eye Patch</button>
+        <button id="eye-btn">Eye</button>
+      </div>
+    </main>
+
+    <!-- Script -->
+    <script src="./script.js"></script>
+  </body>
+</html>
