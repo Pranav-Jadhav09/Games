@@ -19,6 +19,8 @@ What You'll Find:
 
 <br />
 
+<div align="center">
+
 | Game               | Screenshot              | Play                                     | Code                          |
 | ------------------ | ----------------------- | ---------------------------------------- | ----------------------------- |
 | Tic Tac Toe        | ![thumbnail](./assets/) | [Live](https://tic-tac-toe-jrpranav.com) | [Repo](./Tic-Tac-Toe/)        |
@@ -31,6 +33,8 @@ What You'll Find:
 | Pig Dice           | ![thumbnail](./assets/) | [Live](https://victoreke.com)            | [Repo](./Pig-Dice/)           |
 | Number Nest        | ![thumbnail](./assets/) | [Live](https://victoreke.com)            | [Repo](./Number-Nest/)        |
 | Fruit Fall         | ![thumbnail](./assets/) | [Live](https://victoreke.com)            | [Repo](./Fruit-Fall/)         |
+
+</div>
 
 <br />
 
