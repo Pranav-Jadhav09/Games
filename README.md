@@ -23,16 +23,16 @@ What You'll Find:
 
 | Game               | Screenshot                          | Play                                                    | Code                          |
 | ------------------ | ----------------------------------- | ------------------------------------------------------- | ----------------------------- |
-| Tic Tac Toe        | ![thumbnail](./assets/tictactoe)    | [Live](https://tic-tac-toe-jrpranav.com)                | [Repo](./Tic-Tac-Toe/)        |
-| Word Scramble      | ![thumbnail](./assets/wordscramble) | [Live](https://victoreke.com)                           | [Repo](./Word-Scramble/)      |
+| Word Scramble      | ![thumbnail](./assets/wordscramble) | [Live](https://word-scramble-jrpranav.onrender.com/)    | [Repo](./Word-Scramble/)      |
+| Word Guessing      | ![thumbnail](./assets/)             | [Live](https://word-guessing-jrpranav.onrender.com/)    | [Repo](./Word-Guessing/)      |
 | Color The Parrot   | ![thumbnail](./assets/)             | [Live](https://color-the-parrot-jrpranav.onrender.com/) | [Repo](./Color-The-Parrot/)   |
-| Memory Match v1    | ![thumbnail](./assets/)             | [Live](https://victoreke.com)                           | [Repo](./Memory-Match-v1/)    |
-| Memory Match v2    | ![thumbnail](./assets/)             | [Live](https://victoreke.com)                           | [Repo](./Memory-Match-v2/)    |
+| Fruit Fall         | ![thumbnail](./assets/)             | [Live](https://fruit-fall-jrpranav.onrender.com/)       | [Repo](./Fruit-Fall/)         |
+| Memory Match v1    | ![thumbnail](./assets/)             | [Live](https://memory-match-v1-jrpranav.onrender.com/)  | [Repo](./Memory-Match-v1/)    |
+| Memory Match v2    | ![thumbnail](./assets/)             | [Live](https://memory-match-v2-jrpranav.onrender.com/)  | [Repo](./Memory-Match-v2/)    |
 | Rock Paper Scissor | ![thumbnail](./assets/)             | [Live](https://victoreke.com)                           | [Repo](./Rock-Paper-Scissor/) |
-| Word Guessing      | ![thumbnail](./assets/)             | [Live](https://victoreke.com)                           | [Repo](./Word-Guessing/)      |
 | Pig Dice           | ![thumbnail](./assets/)             | [Live](https://victoreke.com)                           | [Repo](./Pig-Dice/)           |
 | Number Nest        | ![thumbnail](./assets/)             | [Live](https://victoreke.com)                           | [Repo](./Number-Nest/)        |
-| Fruit Fall         | ![thumbnail](./assets/)             | [Live](https://victoreke.com)                           | [Repo](./Fruit-Fall/)         |
+| Tic Tac Toe        | ![thumbnail](./assets/tictactoe)    | [Live](https://tic-tac-toe-jrpranav.com)                | [Repo](./Tic-Tac-Toe/)        |
 
 </div>
 
