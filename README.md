@@ -21,18 +21,18 @@ What You'll Find:
 
 <div align="center">
 
-| Game               | Screenshot                              | Play                                                     | Code                          |
-| ------------------ | --------------------------------------- | -------------------------------------------------------- | ----------------------------- |
-| Word Scramble      | ![thumbnail](./assets/wordscramble.jpg) | [Live](https://word-scramble-jrpranav.onrender.com/)     | [Repo](./Word-Scramble/)      |
-| Word Guessing      | ![thumbnail](./assets/)                 | [Live](https://word-guessing-jrpranav.onrender.com/)     | [Repo](./Word-Guessing/)      |
-| Color The Parrot   | ![thumbnail](./assets/)                 | [Live](https://color-the-parrot-jrpranav.onrender.com/)  | [Repo](./Color-The-Parrot/)   |
-| Fruit Fall         | ![thumbnail](./assets/)                 | [Live](https://fruit-fall-jrpranav.onrender.com/)        | [Repo](./Fruit-Fall/)         |
-| Memory Match v1    | ![thumbnail](./assets/)                 | [Live](https://memory-match-v1-jrpranav.onrender.com/)   | [Repo](./Memory-Match-v1/)    |
-| Memory Match v2    | ![thumbnail](./assets/)                 | [Live](https://memory-match-v2-jrpranav.onrender.com/)   | [Repo](./Memory-Match-v2/)    |
-| Rock Paper Scissor | ![thumbnail](./assets/)                 | [Live](https://rock-paper-scissor-jrpranav.onrender.com) | [Repo](./Rock-Paper-Scissor/) |
-| Pig Dice           | ![thumbnail](./assets/)                 | [Live](https://pig-dice-jrpranav.onrender.com)           | [Repo](./Pig-Dice/)           |
-| Number Nest        | ![thumbnail](./assets/)                 | [Live](https://number-nest-jrpranav.onrender.com)        | [Repo](./Number-Nest/)        |
-| Tic Tac Toe        | ![thumbnail](./assets/tictactoe)        | [Live](https://tic-tac-toe-jrpranav.onrender.com)        | [Repo](./Tic-Tac-Toe/)        |
+| Game               | Screenshot                       | Play                                                     | Code                          |
+| ------------------ | -------------------------------- | -------------------------------------------------------- | ----------------------------- |
+| Word Scramble      | ![thumbnail](./assets/check.jpg) | [Live](https://word-scramble-jrpranav.onrender.com/)     | [Repo](./Word-Scramble/)      |
+| Word Guessing      | ![thumbnail](./assets/)          | [Live](https://word-guessing-jrpranav.onrender.com/)     | [Repo](./Word-Guessing/)      |
+| Color The Parrot   | ![thumbnail](./assets/)          | [Live](https://color-the-parrot-jrpranav.onrender.com/)  | [Repo](./Color-The-Parrot/)   |
+| Fruit Fall         | ![thumbnail](./assets/)          | [Live](https://fruit-fall-jrpranav.onrender.com/)        | [Repo](./Fruit-Fall/)         |
+| Memory Match v1    | ![thumbnail](./assets/)          | [Live](https://memory-match-v1-jrpranav.onrender.com/)   | [Repo](./Memory-Match-v1/)    |
+| Memory Match v2    | ![thumbnail](./assets/)          | [Live](https://memory-match-v2-jrpranav.onrender.com/)   | [Repo](./Memory-Match-v2/)    |
+| Rock Paper Scissor | ![thumbnail](./assets/)          | [Live](https://rock-paper-scissor-jrpranav.onrender.com) | [Repo](./Rock-Paper-Scissor/) |
+| Pig Dice           | ![thumbnail](./assets/)          | [Live](https://pig-dice-jrpranav.onrender.com)           | [Repo](./Pig-Dice/)           |
+| Number Nest        | ![thumbnail](./assets/)          | [Live](https://number-nest-jrpranav.onrender.com)        | [Repo](./Number-Nest/)        |
+| Tic Tac Toe        | ![thumbnail](./assets/tictactoe) | [Live](https://tic-tac-toe-jrpranav.onrender.com)        | [Repo](./Tic-Tac-Toe/)        |
 
 </div>
 
