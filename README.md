@@ -31,7 +31,7 @@ What You'll Find:
 | Memory Match v2    | ![thumbnail](./assets/v2.jpg)             | [Live](https://memory-match-v2-jrpranav.onrender.com/)   | [Repo](./Memory-Match-v2/)    |
 | Rock Paper Scissor | ![thumbnail](./assets/rps.jpg)            | [Live](https://rock-paper-scissor-jrpranav.onrender.com) | [Repo](./Rock-Paper-Scissor/) |
 | Pig Dice           | ![thumbnail](./assets/pigdice.jpeg)       | [Live](https://pig-dice-jrpranav.onrender.com)           | [Repo](./Pig-Dice/)           |
-| Number Nest        | ![thumbnail](./assets/numbernest.jpg)     | [Live](https://number-nest-jrpranav.onrender.com)        | [Repo](./Number-Nest/)        |
+| Number Nest        | ![thumbnail](./assets/numbernest.png)     | [Live](https://number-nest-jrpranav.onrender.com)        | [Repo](./Number-Nest/)        |
 | Tic Tac Toe        | ![thumbnail](./assets/tictactoe.jpg)      | [Live](https://tic-tac-toe-jrpranav.onrender.com)        | [Repo](./Tic-Tac-Toe/)        |
 
 </div>
