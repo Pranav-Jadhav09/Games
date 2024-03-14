@@ -39,5 +39,5 @@ What You'll Find:
 <br />
 
 > [!TIP]
-> Drop a 🌟 If you like it.
+> Drop a 🌟 If you like it. <br />
 > Let's Connect ➡️ Follow me on `GitHub` to stay updated with my latest projects and join me on this exciting journey through the world of game development!
