@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hangman Game</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+
+    <!-- Script -->
+    <script defer src="./script/words.js"></script>
+    <script defer src="./script/script.js"></script>
+  </head>
+  <body>
+    <div class="game-modal">
+      <div class="content">
+        <img src="#" alt="gif" />
+        <h4>Game Over!</h4>
+        <p>The correct word was: <b>rainbox</b></p>
+        <button class="play-again">Play Again</button>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="hangman-box">
+        <img src="#" draggable="false" alt="hangman-img" />
+        <h1>Hangman Game</h1>
+      </div>
+
+      <div class="game-box">
+        <ul class="word-display"></ul>
+        <h4 class="hint-text">Hint: <b></b></h4>
+        <h4 class="guesses-text">Incorrect guesses: <b></b></h4>
+        <div class="keyboard"></div>
+      </div>
+    </div>
+  </body>
+</html>
