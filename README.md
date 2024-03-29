@@ -1,8 +1,8 @@
 <div align="center">
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-![GitHub repo size](https://img.shields.io/github/repo-size/Pranav-Jadhav09/Games)
-[![Twitter Follow](https://img.shields.io/twitter/follow/Pranav_Jadhav09?style=social)](https://twitter.com/Pranav_Jadhav09)
+[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=flat&logo=twitter&logoColor=white)](https://twitter.com/Pranav_Jadhav09)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jrpranav/)
 
 </div>
 
@@ -23,6 +23,7 @@ What You'll Find:
 
 | Game               | Screenshot                                | Play                                                     | Code                          |
 | ------------------ | ----------------------------------------- | -------------------------------------------------------- | ----------------------------- |
+| Hangman            | ![thumbnail](./assets/hangman.jpg)        | [Live](https://hangman-game-jrpranav.onrender.com/)      | [Repo](./Hangman/)            |
 | Word Scramble      | ![thumbnail](./assets/wordscramble.jpg)   | [Live](https://word-scramble-jrpranav.onrender.com/)     | [Repo](./Word-Scramble/)      |
 | Word Guessing      | ![thumbnail](./assets/wordguess.jpg)      | [Live](https://word-guessing-jrpranav.onrender.com/)     | [Repo](./Word-Guessing/)      |
 | Color The Parrot   | ![thumbnail](./assets/colortheparrot.jpg) | [Live](https://color-the-parrot-jrpranav.onrender.com/)  | [Repo](./Color-The-Parrot/)   |
