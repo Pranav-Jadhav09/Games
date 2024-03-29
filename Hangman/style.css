@@ -1,3 +1,6 @@
+/* Importing Google font - Open Sans */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap");
+
 /* Reset */
 * {
   margin: 0;
@@ -5,28 +8,25 @@
   box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
 }
-
 body {
-  display: grid;
-  place-content: center;
-  min-height: 100vh;
+  display: flex;
   padding: 0 10px;
-  background-color: #5e63ba;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: #5e63ba;
 }
-
 .container {
   display: flex;
   width: 850px;
   gap: 70px;
-  background-color: #fff;
   padding: 60px 40px;
+  background: #fff;
   border-radius: 10px;
   align-items: flex-end;
   justify-content: space-between;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 }
-
-/* Hangman */
 .hangman-box img {
   user-select: none;
   max-width: 270px;
@@ -37,15 +37,13 @@ body {
   margin-top: 20px;
   text-transform: uppercase;
 }
-
-/* Game Box */
 .game-box .word-display {
   gap: 10px;
   list-style: none;
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
   justify-content: center;
+  align-items: center;
 }
 .word-display .letter {
   width: 28px;
@@ -54,7 +52,7 @@ body {
   font-weight: 600;
   margin-bottom: 40px;
   text-transform: uppercase;
-  border-bottom: 3px solif #000;
+  border-bottom: 3px solid #000;
 }
 .word-display .letter.guessed {
   margin: -40px 0 35px;
@@ -81,6 +79,14 @@ body {
 }
 :where(.game-modal, .keyboard) button {
   color: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 4px;
+  text-transform: uppercase;
+  background: #5e63ba;
 }
 .keyboard button {
   padding: 7px;
@@ -91,10 +97,8 @@ body {
   opacity: 0.6;
 }
 :where(.game-modal, .keyboard) button:hover {
-  background-color: #8286c9;
+  background: #8286c9;
 }
-
-/* Modal */
 
 .game-modal {
   position: fixed;
@@ -149,7 +153,6 @@ body {
   padding: 12px 23px;
 }
 
-/* Media Queries */
 @media (max-width: 782px) {
   .container {
     flex-direction: column;
@@ -162,13 +165,12 @@ body {
   .hangman-box h1 {
     display: none;
   }
-
   .game-box h4 {
     font-size: 1rem;
   }
   .word-display .letter {
-    font-size: 1.7rem;
     margin-bottom: 35px;
+    font-size: 1.7rem;
   }
   .word-display .letter.guessed {
     margin: -35px 0 25px;
